@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.panel-block{
+  position: relative;
+  overflow: hidden;
+}
+.panel-block:hover .remove{
+  left: 15px;
+}
+.panel-block:hover .check{
+  right: 15px;
+}
+.panel-block:hover .todo-task{
+  left: 55px;
+  cursor:default;
+}
+.panel-block.is-done .check{
+  right:15px;
+  background-color: green;
+}
+.todo-task{
+  position: absolute;
+  transition: all .4s ease-in-out;
+  left: 15px;
+}
+.todo-icon{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  border-radius: 6px;
+  transition: all .4s ease-in-out;
+}
+.todo-icon.remove{
+  background-color: darkred;
+  border-radius: 20px;
+  margin-right: 15px;
+  margin-left: 0px;
+  position: absolute;
+  left: -30px;
+}
+.todo-icon.check{
+  margin-right: 0px;
+  margin-left: auto;
+  position: absolute;
+  right: -30px;
+}
+
+.todo-icon.check:hover{
+  background-color: green;
+}
