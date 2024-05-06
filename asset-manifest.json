@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-practice-todo-list/static/css/main.768986a8.css",
+    "main.js": "/react-practice-todo-list/static/js/main.1f2a1814.js",
+    "index.html": "/react-practice-todo-list/index.html",
+    "main.768986a8.css.map": "/react-practice-todo-list/static/css/main.768986a8.css.map",
+    "main.1f2a1814.js.map": "/react-practice-todo-list/static/js/main.1f2a1814.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.768986a8.css",
+    "static/js/main.1f2a1814.js"
+  ]
+}
